@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-
     <script type="module" src="script.js"></script>
 </head>
 <body>
-    <input type="text" id="textbox" name="textbox">
-    <button type="button" id="search_button" >Search</button>
+    
+    <div id="application-container">
+        
+    
+        <div id="search-container">
+            <div id="search_button">
+                <input type="text" id="textbox" name="textbox">
+                <button type="button" id="search_button">Search</button>
+            </div>
+        </div>
+
+        <div id="divider"></div>
+
+        <div id="data-container">
+            <div id="location-container" class="container">
+                <h1 id="countryName">Country Name</h1>
+                <img id="flagImage" alt="Flag image">
+                <h2 id="cityName">City Name</h2>
+            </div>
+            
+            <div id="weather-container" class="container">
+                <img id="weatherIcon" alt="Weather image">
+                <h3 id="weatherType">Type</h3>
+            </div>
+
+            <div id="date-container" class="container">
+                <h2 id="date">Date</h2>
+                <h3 id="dayName">dayName</h3>
+                <h3 id="time">Time</h3>
+            </div>
+        </div>
+
+
+    </div>
+    
 </body>
 </html>
